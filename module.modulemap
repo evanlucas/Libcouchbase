@@ -1,0 +1,5 @@
+module Libcouchbase [system] {
+  umbrella header "/usr/local/include/libcouchbase/couchbase.h"
+  link "couchbase"
+  export *
+}
